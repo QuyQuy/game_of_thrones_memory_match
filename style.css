@@ -92,7 +92,7 @@
     width: 53%;
     display: block;
     position: relative;
-    left: 16%;
+    left: 17%;
     bottom: 92%;
 }
 .cardContainer{
@@ -158,6 +158,8 @@ bottom: 33px;
 left: 220px;
 height: 31px;
 justify-content: center;
+border-radius: 12px;
+
 
 }
 
@@ -172,284 +174,528 @@ box-shadow: 0px 1px 1px 1px black;
 }
 @media only screen and (max-width: 1534px) and (min-width: 1264px) {
     .container {
-        height: 50%;
+        height: 65%;
         font-size: 0;
-        width: 68%;
+        width: 61%;
         display: block;
         position: relative;
-        left: 10%;
+        left: 15%;
         bottom: 87%;
+    }
+    .gameStats {
+        position: relative;
+        left: 36%;
+        height: 124px;
+        bottom: 227px;
+        font-size: 2rem;
     }
 }
 
-@media only screen and (max-width: 1263) and (min-width: 900px) {
-    
+@media only screen and (max-width: 1263px) and (min-width: 1132px) {
+    .container {
+        height: 62%;
+        font-size: 0;
+        width: 71%;
+        display: block;
+        position: relative;
+        left: 9%;
+        bottom: 92%;
+    }
+    .gameStats {
+        position: relative;
+        left: 33%;
+        height: 124px;
+        bottom: 251px;
+        font-size: 2rem;
+    }
+
+
+}
+@media only screen and (max-width: 1131px) and (min-width: 888px) {
+    .container {
+        height: 50%;
+        font-size: 0;
+        width: 65%;
+        display: block;
+        position: relative;
+        left: 11%;
+        bottom: 86%;
+    }
+    .gameStats {
+        position: relative;
+        left: 27%;
+        height: 124px;
+        bottom: 251px;
+        font-size: 1.9rem;
+    }
+    .attempts {
+        width: 16%;
+    }
+    .accuracy {
+        width: 28%;
+    }
+}
+@media only screen and (max-width: 887px) and (min-width: 718px) {
+    .container {
+        height: 45%;
+        font-size: 0;
+        width: 74%;
+        display: block;
+        position: relative;
+        left: 7%;
+        bottom: 86%;
+    }
+    .gameStats {
+        position: relative;
+        left: 24%;
+        height: 124px;
+        bottom: 273px;
+        font-size: 1.8rem
+    }
+    .attempts {
+        width: 30%;
+        /* background-color: aliceblue; */
+    }
+    .accuracy {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 717px) and (min-width: 696px) {
+    .container {
+        height: 39%;
+        font-size: 0;
+        width: 80%;
+        display: block;
+        position: relative;
+        left: 2%;
+        bottom: 86%;
+    }
+    .gameStats {
+        position: relative;
+        left: 24%;
+        height: 124px;
+        bottom: 235px;
+        font-size: 1.5rem;
+    }
+
 }
 
-/*@media only  screen and ( max-width: 361px)  {*/
-    /*.background {*/
-        /*position: fixed;*/
-        /*height: 81%;*/
-        /*width: 79%;*/
-    /*}*/
+@media only screen and (max-width: 695px) and ( min-width: 580px) {
+    .container {
+        height: 36%;
+        font-size: 0;
+        width: 74%;
+        display: block;
+        position: relative;
+        left: 6%;
+        bottom: 85%;
+    }
+    .gameStats {
+        position: relative;
+        left: 26%;
+        height: 124px;
+        bottom: 243px;
+        font-size: 1.5rem;
+    }
+    .accuracy {
+        width: 30%;
+    }
+    .attempts {
+        width: 30%;
+    }
 
-    /*.background-image {*/
-        /*width: 100%;*/
-        /*height: 100%;*/
-        /*position: relative;*/
-    /*}*/
+}
 
-    /*.headerContainer {*/
-        /*height: 24%;*/
-        /*width: 66%;*/
+@media only screen and (max-width: 579px) and (min-width: 400px) {
+    .container {
+        height: 31%;
+        font-size: 0;
+        width: 83%;
+        display: block;
+        position: relative;
+        left: -1%;
+        bottom: 85%;
+    }
+    .gameStats {
+        position: relative;
+        left: 22%;
+        height: 124px;
+        bottom: 233px;
+        font-size: 1.3rem;
+    }
+    .accuracy {
+        width: 30%
+    }
+    .attempts {
+        width: 30%;
+    }
+}
+
+@media only screen and (max-height: 1367px) and (min-height: 1365px) {
+    .container {
+        height: 38%;
+        font-size: 0;
+        width: 86%;
+        display: block;
+        position: relative;
+        left: -1%;
+        bottom: 83%;
+    }
+    .gameStats {
+        position: relative;
+        left: 0%;
+        height: 228px;
+        bottom: 375px;
+        font-size: 2.6rem;
+
+    }
+
+    .accuracy {
+        position: fixed;
+        width: 30%;
+        top: 54px;
+        left: 70%;
+    }
+    .attempts {
+        width: 30%;
+        left: 69px;
+    }
+    .title {
+        height: 99%;
+        font-size: 0;
+        width: 33%;
+        display: block;
+        position: relative;
+        left: 30%;
+        bottom: -75px;
+    }
+}
+
+/*not working */
+/*@media only screen and (max-width: 768px) and (min-height: 768px) {*/
+    /*.container {*/
+        /*height: 41%;*/
+        /*font-size: 0;*/
+        /*width: 94%;*/
         /*display: block;*/
-        /*bottom: inherit;*/
         /*position: relative;*/
-        /*!* right: 7%; *!*/
-        /*top: 5%;*/
-        /*left: 2%*/
+        /*left: -5%;*/
+        /*bottom: 86%;*/
     /*}*/
-
     /*.gameStats {*/
         /*position: relative;*/
-        /*!* left: 421px; *!*/
-        /*height: 124px;*/
-        /*bottom: 215px;*/
-        /*font-size: 1.3rem;*/
-        /*left: 19%;*/
+        /*left: 1%;*/
+        /*height: 211px;*/
+        /*bottom: 322px;*/
+        /*font-size: 2.3rem;*/
+
     /*}*/
-
-
-
-    /*#container {*/
-        /*height: 23%;*/
-        /*width: 67%;*/
-        /*display: block;*/
-        /*bottom: inherit;*/
-        /*position: relative;*/
-        /*!* right: 7%; *!*/
+    /*.accuracy {*/
+        /*width: 36%;*/
+        /*position: fixed;*/
         /*top: 2%;*/
-        /*left: -4%;*/
+        /*left: 70%;*/
     /*}*/
-    /*.title {*/
-        /*height: 59%;*/
-        /*font-size: 0;*/
-        /*width: 34%;*/
-        /*display: block;*/
-        /*position: relative;*/
-        /*left: 4%;*/
-        /*bottom: 12px;*/
-    /*}*/
-/*}*/
-
-/*@media only screen and (max-width: 415px) and (max-width: 362px) {*/
-    /*.background {*/
-        /*background-color: yellow;*/
-        /*width: 100%;*/
-        /*height: 100%;*/
-        /*position: fixed;*/
-    /*}*/
-    /*.background-image {*/
-        /*width: 100%;*/
-        /*height: 100%;*/
-        /*position: relative;*/
-    /*}*/
-    /*.game-container {*/
-        /*margin: 0;*/
-        /*height: 0%;*/
-        /*width: 0%;*/
-    /*}*/
-    /*.gameStats {*/
-        /*left: 91px;*/
-        /*bottom: 313px;*/
-        /*font-size: 1.6rem;*/
-    /*}*/
-
-/*}*/
-
-/*}*/
-/* bottom: 14%; */
-/* background-color: black; */
-/* width: 266%
-}
-}
-
-/*@media only screenn*/
-/*@media only screen and (max-width: 1200px) and (min-width: 1150px) {*/
-/*.gameStats {*/
-/*left: 407px;*/
-/*}*/
-/*}*/
-
-/*@media only screen and (max-width: 1109px) and (min-width: 1005px ) {*/
-    /*.gameStats {*/
-        /*position: relative;*/
-        /*left: 440px;*/
-        /*height: 124px;*/
-        /*bottom: 214px;*/
-        /*font-size: 2rem;*/
-    /*}*/
-/*}*/
-/*@media only screen and (max-width: 1004px) and (min-width: 936px) {*/
-    /*.gameStats {*/
-        /*position: relative;*/
-        /*left: 399px;*/
-        /*height: 124px;*/
-        /*bottom: 212px;*/
-        /*font-size: 2rem;*/
-    /*}*/
-/*}*/
-
-/*@media only screen and (max-width: 935px) and  (min-width: 867px) {*/
-    /*.container {*/
-        /*height: 59%;*/
-        /*width: 69%;*/
-        /*position: relative;*/
-        /*left: 13%;*/
-    /*}*/
-    /*.gameStats {*/
-        /*position: relative;*/
-        /*left: 312px;*/
-        /*height: 124px;*/
-        /*bottom: 215px;*/
-        /*font-size: 2rem;*/
-    /*}*/
-    /*.accuracy {*/
-        /*width: 31%;*/
-    /*}*/
-/*}*/
-
-/*@media only screen and (max-width: 866px) and (min-width: 750px) {*/
-    /*.gameStats {*/
-        /*font-size: 1.5rem;*/
-        /*left: 322px;*/
-    /*}*/
-    /*.accuracy {*/
-        /*bottom: 20px;*/
-    /*}*/
-    /*.container {*/
-        /*height: 67%;*/
-        /*font-size: 0;*/
-        /*width: 81%;*/
-        /*display: block;*/
-        /*bottom: -3%;*/
-        /*position: relative;*/
-        /*left: 3%;*/
-    /*}*/
-/*}*/
-
-/*@media only screen and (max-width: 749px) and (min-width: 718px) {*/
-
-    /*.gameStats {*/
-        /*font-size: 1.5rem;*/
-        /*left: 238px;*/
-    /*}*/
-    /*.accuracy {*/
-        /*width: 28%;*/
-        /*bottom: 20px;*/
-    /*}*/
-    /*.container {*/
-        /*height: 65%;*/
-        /*font-size: 0;*/
-        /*width: 90%;*/
-        /*display: block;*/
-        /*bottom: -7%;*/
-        /*position: relative;*/
-        /*left: -1%;*/
-    /*}*/
-
-/*}*/
-/*@media only screen and (max-width: 717px) and (min-width: 600px) {*/
-    /*.gameStats {*/
-        /*left: 229px;*/
-        /*font-size: 1.5rem;*/
-    /*}*/
-    /*.accuracy {*/
-        /*position: relative;*/
-        /*width: 14%;*/
-        /*left: 60%;*/
-        /*bottom: -19px;*/
-        /*background-color: red;*/
-    /*}*/
-    /*.container {*/
-        /*height: 65%;*/
-        /*font-size: 0;*/
-        /*width: 90%;*/
-        /*display: block;*/
-        /*bottom: -7%;*/
-        /*position: relative;*/
-        /*left: -3%;*/
-    /*}*/
-
-/*}*/
-/*@media only screen and (max-width: 599px) and (min-width: 496px) {*/
-    /*.gameStats {*/
-        /*position: relative;*/
-
-        /*left: 170px;*/
-        /*height: 124px;*/
-        /*bottom: 174px;*/
-        /*font-size: 1.2rem;*/
-    /*}*/
-    /*.accuracy {*/
-        /*position: relative;*/
-        /*width: 31%;*/
-        /*left: 36%;*/
-        /*bottom: 11px;*/
-        /*background-color: red;*/
-    /*}*/
-    /*.title {*/
-        /*!* padding-left: 0%; *!*/
-        /*height: 150px;*/
-        /*!* padding-top: 0%; *!*/
-        /*width: 26%;*/
-    /*}*/
-    /*.container {*/
-        /*height: 49%;*/
-        /*font-size: 0;*/
-        /*width: 91%;*/
-        /*display: block;*/
-        /*bottom: -7%;*/
-        /*position: relative;*/
-        /*left: -2%;*/
-    /*}*/
-/*}*/
-
-/*@media only screen and (max-width: 495px) and (min-width: 300px) {*/
-    /*.title {*/
-        /*height: 117px;*/
-        /*width: 27%;*/
-        /*position: relative;*/
-        /*top: 18px;*/
-    /*}*/
-    /*.gameStats {*/
-        /*position: relative;*/
-        /*left: 123px;*/
-        /*height: 124px;*/
-        /*bottom: 142px;*/
-        /*font-size: 1.2rem;*/
-    /*}*/
-    /*.accuracy {*/
-        /*position: relative;*/
-        /*width: 39%;*/
-        /*left: 36%;*/
-        /*bottom: 11px;*/
-        /*background-color: red;*/
-    /*}*/
-    /*.container {*/
-        /*height: 49%;*/
-        /*font-size: 0;*/
-        /*width: 91%;*/
-        /*display: block;*/
-        /*bottom: -7%;*/
-        /*position: relative;*/
-        /*left: -2%;*/
     /*}*/
     /*.attempts {*/
-        /*position: relative;*/
+        /*width: 30%;*/
         /*left: 10%;*/
-        /*width: 22%;*/
-        /*top: 19px;*/
-        /*background-color: aliceblue;*/
+        /*top: 52%*/
     /*}*/
+    /*.title {*/
+        /*height: 90%;*/
+        /*font-size: 0;*/
+        /*width: 30%;*/
+        /*display: block;*/
+        /*position: relative;*/
+        /*left: 32%;*/
+        /*bottom: -62px;*/
+    /*}*/
+
 /*}*/
+@media only screen and (max-height: 812px) and (min-height: 812px)  {
+    .container {
+        height: 24%;
+        font-size: 0;
+        width: 89%;
+        display: block;
+        position: relative;
+        left: -4%;
+        bottom: 83%;
+    }
+    .gameStats {
+        position: relative;
+        left: -2%;
+        height: 168px;
+        bottom: 239px;
+        font-size: 1.3rem;
+    }
+    .attempts {
+        position: relative;
+        left: 8%;
+        width: 27%;
+        top: 72px;
+        /* background-color: aliceblue; */
+    }
+    .accuracy {
+        top: 40px;
+        left: 215px;
+        width: 43%;
+    }
+    .title {
+        height: 92%;
+        font-size: 0;
+        width: 42%;
+        display: block;
+        position: relative;
+        left: 24%;
+        bottom: -59px;
+    }
+}
+@media only screen and (max-height: 737px) and (min-height: 735px) {
+    .container {
+        height: 30%;
+        font-size: 0;
+        width: 92%;
+        display: block;
+        position: relative;
+        left: -5.2%;
+        bottom: 82%;
+    }
+    .title {
+        height: 90%;
+        font-size: 0;
+        width: 38%;
+        display: block;
+        position: relative;
+        left: 27%;
+        bottom: -42px;
+    }
+    .attempts {
+        left: 12%;
+        top: 58%;
+
+        /* background-color: aliceblue; */
+    }
+    .accuracy {
+        position: relative;
+        width: 34%;
+        left: 66%;
+        top: 23px;
+    }
+    .gameStats {
+        position: relative;
+        left: -1%;
+        height: 169px;
+        bottom: 251px;
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-height: 668px) and (min-height: 666px) {
+    .container {
+        height: 30%;
+        font-size: 0;
+        width: 98%;
+        display: block;
+        position: relative;
+        left: -8%;
+        bottom: 79%;
+    }
+    .gameStats {
+        position: relative;
+        left: 0%;
+        height: 172px;
+        bottom: 251px;
+        font-size: 1.2rem;
+    }
+    .attempts {
+        position: relative;
+        left: 9%;
+        width: 13%;
+        top: 110px;
+        /* background-color: aliceblue; */
+    }
+    .accuracy {
+        position: fixed;
+        width: 22%;
+        left: 67%;
+        top: 22px;
+    }
+    .title {
+        height: 93%;
+        font-size: 0;
+        width: 39%;
+        display: block;
+        position: relative;
+        left: 25%;
+        bottom: -64px;
+    }
+}
+@media only screen and (max-height: 569px) and (min-height: 567px) {
+    .container {
+        height: 31%;
+        font-size: 0;
+        width: 94%;
+        display: block;
+        position: relative;
+        left: -7%;
+        bottom: 77%;
+    }
+    .gameStats {
+        position: relative;
+        left: -1%;
+        height: 187px;
+        bottom: 251px;
+        font-size: 1.5rem;
+    }
+    .accuracy {
+        position: fixed;
+        width: 22%;
+        left: 54%;
+        top: 18px;
+    }
+    .attempts {
+        position: relative;
+        left: 5%;
+        width: 13%;
+        top: 131px;
+        /* background-color: aliceblue; */
+    }
+    .title {
+        height: 90%;
+        font-size: 0;
+        width: 48%;
+        display: block;
+        position: relative;
+        left: 18%;
+        bottom: -55px;
+    }
+}
+
+@media only screen and (max-height: 824px) and (min-height: 821px) {
+    .container {
+        height: 31%;
+        font-size: 0;
+        width: 97%;
+        display: block;
+        position: relative;
+        left: -7%;
+        bottom: 82%;
+    }
+    .gameStats {
+        position: relative;
+        left: 0%;
+        height: 144px;
+        bottom: 251px;
+        font-size: 1.7rem;
+    }
+    .attempts {
+        position: relative;
+        left: 7%;
+        width: 13%;
+        top: 70px;
+        /* background-color: aliceblue; */
+    }
+    .accuracy {
+        position: fixed;
+        width: 22%;
+        left: 59%;
+        top: 21px;
+    }
+    .title {
+        height: 94%;
+        font-size: 0;
+        width: 37%;
+        display: block;
+        position: relative;
+        left: 29%;
+        bottom: -42px;
+    }
+
+
+}
+@media only screen and (max-height: 732px) and (min-height: 730px) {
+    .container {
+        height: 28%;
+        font-size: 0;
+        width: 97%;
+        display: block;
+        position: relative;
+        left: -8%;
+        bottom: 85%;
+    }
+    .gameStats {
+        position: relative;
+        left: 0%;
+        height: 176px;
+        bottom: 251px;
+        font-size: 1.5rem;
+    }
+    .attempts {
+        position: relative;
+        left: 9%;
+        width: 13%;
+        top: 110px;
+        /* background-color: aliceblue; */
+    }
+    .accuracy {
+        position: fixed;
+        width: 22%;
+        left: 64%;
+        top: 33px;
+    }
+    .title {
+        height: 94%;
+        font-size: 0;
+        width: 34%;
+        display: block;
+        position: relative;
+        left: 29%;
+        bottom: -45px;
+    }
+}
+
+@media only screen and (max-height: 641px) and (min-height: 639px) {
+    .container {
+        height: 33%;
+        font-size: 0;
+        width: 98%;
+        display: block;
+        position: relative;
+        left: -8%;
+        bottom: 84%;
+    }
+    .gameStats {
+        position: relative;
+        left: 0%;
+        height: 181px;
+        bottom: 251px;
+        font-size: 1.4rem;
+
+    }
+    .attempts {
+        position: relative;
+        left: 4%;
+        width: 13%;
+        top: 110px;
+    }
+    .accuracy {
+        position: fixed;
+        width: 22%;
+        left: 74%;
+        top: 11px;
+    }
+    .title {
+        height: 90%;
+        font-size: 0;
+        width: 38%;
+        display: block;
+        position: relative;
+        left: 29%;
+        bottom: -39px;
+    }
+
+
+}
