@@ -87,10 +87,10 @@
 }
 
 .container {
-    top: 59%;
-    height: 65%;
+    top: 64%;
+    height: 74%;
     /* font-size: 0; */
-    width: 74%;
+    width: 68%;
     position: absolute;
     left: 53%;
     transform: translate(-50%, -50%);
@@ -174,178 +174,235 @@
 
 }
 
-@media only screen and (max-width: 1037px) and (min-width: 933px) {
-    .container {
-        top: 61%;
-        height: 69%;
-        /* font-size: 0; */
-        width: 85%;
-        position: absolute;
-        left: 53%;
-        transform: translate(-50%, -50%);
-    }
-    .gameStats {
-        font-size: 1.9rem;
-    }
-    .accuracy {
-        bottom: 47px;
-    }
-
-
-}
-
-@media only screen and (max-width: 932px) and (min-width: 820px) {
-    .container {
-        top: 61%;
-        height: 69%;
-        /* font-size: 0; */
-        width: 96%;
-        position: absolute;
-        left: 51%;
-        transform: translate(-50%, -50%);
-    }
-    .gameStats {
-        font-size: 1.9rem;
-    }
-    .accuracy {
-        bottom: 35px;
-    }
-}
-@media only screen and (max-width: 819px) and (min-width: 774px) {
-    .container {
-        top: 61%;
-        height: 71%;
-        /* font-size: 0; */
-        width: 100%;
-        position: absolute;
-        left: 51%;
-        transform: translate(-50%, -50%);
-    }
-    .gameStats {
-        font-size: 1.5rem;
-    }
-
-}
-
-@media only screen and (max-width: 773px) and (min-width: 668px) {
-    .game-container {
-        margin: 0px;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        background-image: url(./images/star_wars_background.jpg);
-        overflow-y: scroll;
-        background-size: cover;
-        /* overflow-y: hidden; */
-    }
-    .cardContainer {
-        height: 32%;
-        width: 26%;
-        display: inline-block;
-    }
-    .gameStats {
-
-        font-size: 1.7rem;
-        width: 45%;
-        background-color: red;
-        position: relative;
-        /* bottom: 118px; */
-        left: 44%;
-        bottom: 112%;
-    }
-    .attempts {
-        width: 42%;
-        left: 110px;
-    }
-    .accuracy {
-        position: relative;
-        width: 58%;
-
-        left: 33%;
-        bottom: 9px;
-    }
-
-}
-@media only screen and (max-width: 667px) and (min-width: 587px) {
-    .game-container {
-        overflow-y: scroll;
+@media only screen and (min-width: 1915px) {
+    .card {
+        height: 198px;
     }
     .container {
+        top: 64%;
         height: 66%;
-        width: 86%;
-        left: 53%;
-    }
-    .gameStats {
-        font-size: 1.7rem;
-        width: 100%;
-        background-color: red;
-        position: relative;
-        left: 0%;
-        height: 50px;
-        bottom: 139%;
-    }
-    .title {
-        height: 90%;
-        width: 33%;
-        left: 27%;
-        background-color: red;
-        bottom: -13px;
-    }
-    .cardContainer {
-        height: 32%;
-        width: 25%;
-    }
-    .attempts {
-        left: 36px;
-
-    }
-    .accuracy {
-        left: 62%;
-        bottom: 83%;
+        width: 65%;
     }
 }
-@media only screen and (max-width: 586px) and (min-width: 501px) {
-    .cardContainer {
-        height: 32%;
-        width: 30%;
-    }
-    .game-container {
-        overflow-y: scroll;
+@media only screen and (max-width: 1290px) and (min-width: 1270px) {
+    .container {
+        top: 64%;
+        height: 70%;
+        width: 70%
     }
 }
-@media only screen and (max-width: 500px) and (min-width: 400px) {
+@media only screen and (max-width: 1259px) and (min-width: 1131px) {
+    .container {
+        top: 64%;
+        height: 74%;
+        width: 74%;
+    }
+
+}
+@media only screen and (max-height: 722px) and (min-height: 719px) {
+    .container {
+        top: 64%;
+        height: 65%;
+        width: 71%;
+    }
+
+}
+@media only screen and (max-height: 641px) and (min-height: 639px) {
+    .container {
+        top: 64%;
+        height: 74%;
+        width: 68%;
+    }
+
+}
+@media only screen and (max-width: 1130px) and (min-width: 1058px) {
+    .container {
+        top: 64%;
+        height: 74%;
+        width: 76%;
+    }
     .cardContainer {
-        height: 33%;
-        width: 40%;
-    }
-    .game-container {
-        overflow-y: scroll;
-    }
-    .title {
-        height: 90%;
-        font-size: 0;
-        width: 35%;
-        display: block;
-        position: relative;
-        left: 28%;
-        background-color: red;
-        bottom: -19px;
-    }
-    .gameStats {
-
-        font-size: 1.7rem;
-        width: 98%;
-        background-color: red;
-        position: relative;
-        left: 1%;
-        bottom: 131%;
-        height: 55px;
-    }
-    .accuracy {
-        position: relative;
-        width: 58%;
-
-        left: 61%;
-        bottom: 44px;
+        width: 16.1%;
     }
 }
+@media only screen and (max-width: 1057px) and (min-width: 800px) {
+
+}
+
+
+
+/*@media only screen and (max-width: 1037px) and (min-width: 933px) {*/
+    /*.container {*/
+        /*top: 61%;*/
+        /*height: 69%;*/
+        /*!* font-size: 0; *!*/
+        /*width: 85%;*/
+        /*position: absolute;*/
+        /*left: 53%;*/
+        /*transform: translate(-50%, -50%);*/
+    /*}*/
+    /*.gameStats {*/
+        /*font-size: 1.9rem;*/
+    /*}*/
+    /*.accuracy {*/
+        /*bottom: 47px;*/
+    /*}*/
+
+
+/*}*/
+
+/*@media only screen and (max-width: 932px) and (min-width: 820px) {*/
+    /*.container {*/
+        /*top: 61%;*/
+        /*height: 69%;*/
+        /*!* font-size: 0; *!*/
+        /*width: 96%;*/
+        /*position: absolute;*/
+        /*left: 51%;*/
+        /*transform: translate(-50%, -50%);*/
+    /*}*/
+    /*.gameStats {*/
+        /*font-size: 1.9rem;*/
+    /*}*/
+    /*.accuracy {*/
+        /*bottom: 35px;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 819px) and (min-width: 774px) {*/
+    /*.container {*/
+        /*top: 61%;*/
+        /*height: 71%;*/
+        /*!* font-size: 0; *!*/
+        /*width: 100%;*/
+        /*position: absolute;*/
+        /*left: 51%;*/
+        /*transform: translate(-50%, -50%);*/
+    /*}*/
+    /*.gameStats {*/
+        /*font-size: 1.5rem;*/
+    /*}*/
+
+/*}*/
+
+/*@media only screen and (max-width: 773px) and (min-width: 668px) {*/
+    /*.game-container {*/
+        /*margin: 0px;*/
+        /*position: absolute;*/
+        /*height: 100%;*/
+        /*width: 100%;*/
+        /*background-image: url(./images/star_wars_background.jpg);*/
+        /*overflow-y: scroll;*/
+        /*background-size: cover;*/
+        /*!* overflow-y: hidden; *!*/
+    /*}*/
+    /*.cardContainer {*/
+        /*height: 32%;*/
+        /*width: 26%;*/
+        /*display: inline-block;*/
+    /*}*/
+    /*.gameStats {*/
+
+        /*font-size: 1.7rem;*/
+        /*width: 45%;*/
+        /*background-color: red;*/
+        /*position: relative;*/
+        /*!* bottom: 118px; *!*/
+        /*left: 44%;*/
+        /*bottom: 112%;*/
+    /*}*/
+    /*.attempts {*/
+        /*width: 42%;*/
+        /*left: 110px;*/
+    /*}*/
+    /*.accuracy {*/
+        /*position: relative;*/
+        /*width: 58%;*/
+
+        /*left: 33%;*/
+        /*bottom: 9px;*/
+    /*}*/
+
+/*}*/
+/*@media only screen and (max-width: 667px) and (min-width: 587px) {*/
+    /*.game-container {*/
+        /*overflow-y: scroll;*/
+    /*}*/
+    /*.container {*/
+        /*height: 66%;*/
+        /*width: 86%;*/
+        /*left: 53%;*/
+    /*}*/
+    /*.gameStats {*/
+        /*font-size: 1.7rem;*/
+        /*width: 100%;*/
+        /*background-color: red;*/
+        /*position: relative;*/
+        /*left: 0%;*/
+        /*height: 50px;*/
+        /*bottom: 139%;*/
+    /*}*/
+    /*.title {*/
+        /*height: 90%;*/
+        /*width: 33%;*/
+        /*left: 27%;*/
+        /*background-color: red;*/
+        /*bottom: -13px;*/
+    /*}*/
+    /*.cardContainer {*/
+        /*height: 32%;*/
+        /*width: 25%;*/
+    /*}*/
+    /*.attempts {*/
+        /*left: 36px;*/
+
+    /*}*/
+    /*.accuracy {*/
+        /*left: 62%;*/
+        /*bottom: 83%;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 586px) and (min-width: 501px) {*/
+    /*.cardContainer {*/
+        /*height: 32%;*/
+        /*width: 30%;*/
+    /*}*/
+    /*.game-container {*/
+        /*overflow-y: scroll;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 500px) and (min-width: 400px) {*/
+    /*.cardContainer {*/
+        /*height: 33%;*/
+        /*width: 40%;*/
+    /*}*/
+    /*.game-container {*/
+        /*overflow-y: scroll;*/
+    /*}*/
+    /*.title {*/
+        /*height: 90%;*/
+        /*font-size: 0;*/
+        /*width: 35%;*/
+        /*display: block;*/
+        /*position: relative;*/
+        /*left: 28%;*/
+        /*background-color: red;*/
+        /*bottom: -19px;*/
+    /*}*/
+    /*.gameStats {*/
+
+        /*font-size: 1.7rem;*/
+        /*width: 98%;*/
+        /*background-color: red;*/
+        /*position: relative;*/
+        /*left: 1%;*/
+        /*bottom: 131%;*/
+        /*height: 55px;*/
+    /*}*/
+    /*.accuracy {*/
+        /*position: relative;*/
+        /*width: 58%;*/
+
+        /*left: 61%;*/
+        /*bottom: 44px;*/
+    /*}*/
+/*}*/
