@@ -11,6 +11,8 @@
     background-image: url(./images/star_wars_background.jpg);
     background-size: cover;
     overflow-y: hidden;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .headerContainer {
@@ -20,7 +22,9 @@
     color: gold;
     padding-bottom: 0px;
     position: relative;
-    /* bottom: 92%; */
+    display: flex;
+    flex-flow: row wrap;
+
     top: 49px;
 }
 .modal-header {
@@ -30,6 +34,8 @@
     position: relative;
     margin-left: 13%;
     bottom: 20px;;
+    display: flex;
+    flex-flow: row wrap;
 }
 .stats{
     height: 65%;
@@ -51,17 +57,14 @@
 }
 
 .gameStats {
-    /* left: 140%; */
-    /* position: relative; */
-    /* height: 124px; */
-    /* bottom: 251px; */
     font-size: 2.5rem;
     width: 45%;
     background-color: red;
     position: relative;
     /* bottom: 118px; */
-    left: 52%;
-    bottom: 112%;
+    left: 26%;
+    /* bottom: 66%; */
+    bottom: 30%;
 }
 
 
@@ -94,6 +97,8 @@
     position: absolute;
     left: 53%;
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-flow: wrap;
 }
 .cardContainer{
     height: 30%;
@@ -101,12 +106,13 @@
     display: inline-block;
 }
 .card{
-    height: 143px;
+    height: 96%;
     /* width: 95%; */
     background-color: yellow;
     position: relative;
     /* top: 10%; */
     /* left: 57%; */
+    width: 96%;
 }
 
 .back{
@@ -174,235 +180,378 @@
 
 }
 
-@media only screen and (min-width: 1915px) {
-    .card {
-        height: 198px;
+/*@media only screen and (min-height: 619px) {*/
+    /*.container {*/
+        /*height: 48%;*/
+        /*width: 64%;*/
+    /*}*/
+/*}*/
+
+@media only screen and (min-width: 1781px) {
+    .container {
+        top: 60%;
+        height: 54%;
+        width: 51%;
     }
+    .gameStats {
+        font-size: 2.5rem;
+        width: 99%;
+        position: relative;
+        /* bottom: 118px; */
+        bottom: 132%;
+        /* bottom: 130%; */
+        left: 0%;
+    }
+    .title {
+        height: 100%;
+        font-size: 0;
+        width: 27%;
+        display: block;
+        position: relative;
+        left: 36%;
+        /* background-color: red; */
+        top: 44%;
+    }
+    .attempts {
+        width: 42%;
+        top: 18%;
+        left: 5%;
+    }
+    .accuracy {
+        left: 80%;
+        bottom: 33px;
+    }
+
+
+}
+
+@media only screen and (max-width: 1780px) and (min-width: 1614px) {
+    .container {
+        top: 60%;
+        height: 54%;
+        width: 51%;
+    }
+    .title {
+        height: 100%;
+        font-size: 0;
+        width: 26%;
+        display: block;
+        position: relative;
+        left: 35%;
+        top: 26%;
+    }
+    .gameStats {
+        font-size: 2.5rem;
+        width: 100%;
+        background-color: red;
+        position: relative;
+        left: 0%;
+        bottom: 205px;
+    }
+    .attempts {
+        top: 20%;
+        position: relative;
+        left: 8%;
+        width: 42%;
+        /* top: 110px; */
+        /* background-color: aliceblue; */
+    }
+    .accuracy {
+        position: relative;
+        width: 58%;
+        left: 78%;
+        bottom: 33px;
+    }
+
+}
+@media only screen and (max-width: 1613px) and (min-width: 1438px) {
     .container {
         top: 64%;
-        height: 66%;
-        width: 65%;
+        height: 60%;
+        width: 64%;
+
+    }
+    .title {
+        height: 103%;
+        font-size: 0;
+        width: 25%;
+        display: block;
+        position: relative;
+        left: 37%;
+        background-color: red;
+        /* bottom: -55px; */
+        top: 46%;
+    }
+    .attempts {
+        left: 11%;
+    }
+    .accuracy {
+        left: 68%;
+    }
+    .gameStats {
+        font-size: 2.5rem;
+        width: 100%;
+        background-color: red;
+        position: relative;
+        /* bottom: 118px; */
+        /* left: -24%; */
+        /* bottom: 66%; */
+        bottom: 136%;
+    }
+
+}
+@media only screen and (max-width: 1437px) and (min-width: 1281px) {
+    .container {
+        top: 64%;
+        height: 52%;
+        width: 64%;
+    }
+    .attempts {
+        left: 11%;
+    }
+    .accuracy {
+        left: 68%;
+    }
+
+}
+@media only screen and (max-width: 1280px) and (min-width: 1068px) {
+    .container {
+        top: 64%;
+        height: 61%;
+        width: 66%;
     }
 }
-@media only screen and (max-width: 1290px) and (min-width: 1270px) {
+@media only screen and (max-width: 1067px) and (min-width: 901px) {
     .container {
-        top: 64%;
-        height: 70%;
-        width: 70%
-    }
-}
-@media only screen and (max-width: 1259px) and (min-width: 1131px) {
-    .container {
-        top: 64%;
-        height: 74%;
+        height: 59%;
         width: 74%;
     }
-
 }
-@media only screen and (max-height: 722px) and (min-height: 719px) {
+@media only screen and (max-width: 900px) and (min-width: 779px) {
     .container {
-        top: 64%;
-        height: 65%;
-        width: 71%;
+        height: 50%;
+        width: 72%;
+    }
+}
+@media only screen and (max-width: 778px) and (min-width: 670px) {
+    .container {
+        height: 56%;
+        width: 91%;
+    }
+}
+@media only screen and (max-width: 669px) and (min-width: 540px) {
+    .cardContainer {
+        height: 22%;
+        width: 26%;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 539px) and (min-width: 400px) {
+    .cardContainer {
+        height: 19%;
+        width: 32%;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-height: 1367px) and (min-height: 1365px) {
+    .container {
+        height: 41%;
+        width: 100%;
+    }
+}
+@media only screen and (max-height: 1025px) and (min-height: 1023px) {
+    .container {
+        height: 39%;
+        width: 95%;
+        top: 56%;
+    }
+}
+@media only screen and (max-height: 813px) and (min-height: 811px) {
+    .game-container {
+        overflow-y: scroll;
+
+    }
+    .container {
+        top: 47%;
+        height: 49%;
+        /* font-size: 0; */
+        width: 94%;
+        left: 55%;
+    }
+    .cardContainer {
+        height: 26%;
+        width: 29%;
+        display: inline-block;
     }
 
 }
-@media only screen and (max-height: 641px) and (min-height: 639px) {
-    .container {
-        top: 64%;
-        height: 74%;
-        width: 68%;
-    }
-
-}
-@media only screen and (max-width: 1130px) and (min-width: 1058px) {
+@media only screen and (max-height: 737px) and (min-height: 735px) {
     .container {
         top: 64%;
         height: 74%;
         width: 76%;
     }
-    .cardContainer {
-        width: 16.1%;
+    .game-container {
+        overflow-y: scroll;
+
     }
 }
-@media only screen and (max-width: 1057px) and (min-width: 800px) {
+@media only screen and (max-height: 668px) and (min-height: 666px) {
+    .game-container {
+        overflow-y: scroll;
+
+    }
+    .container {
+        top: 52%;
+        height: 48%;
+        /* font-size: 0; */
+        width: 100%;
+        left: 62%;
+    }
+    .cardContainer {
+        width: 26%;
+    }
+}
+@media only screen and (max-height: 569px) and (min-height: 567px) {
+    .game-container {
+        overflow-y: scroll;
+
+    }
+    .cardContainer {
+        width: 33%;
+    }
+    .container {
+        top: 64%;
+        height: 59%;
+        /* font-size: 0; */
+        width: 93%;
+
+        left: 53%;
+    }
 
 }
+@media only screen and (max-height: 824px) and (min-height: 822px) {
+    .container {
+        top: 56%;
+        height: 67%;
+        width: 78%;
+        left: 53%;
+    }
+}
+@media only screen and (max-height: 641px) and (min-height: 639px) {
+    .game-container {
+        overflow-y: scroll;
 
-
-
-/*@media only screen and (max-width: 1037px) and (min-width: 933px) {*/
+    }
+    .cardContainer {
+        height: 30%;
+        width: 27%;
+        display: inline-block;
+    }
+    .container {
+        top: 56%;
+        height: 55%;
+        /* font-size: 0; */
+        width: 100%;
+        position: absolute;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-flow: wrap;
+    }
+}
+/*@media only screen and (max-height: 925px) and (min-height: 606px)  {*/
     /*.container {*/
-        /*top: 61%;*/
-        /*height: 69%;*/
-        /*!* font-size: 0; *!*/
-        /*width: 85%;*/
-        /*position: absolute;*/
-        /*left: 53%;*/
-        /*transform: translate(-50%, -50%);*/
-    /*}*/
-    /*.gameStats {*/
-        /*font-size: 1.9rem;*/
-    /*}*/
-    /*.accuracy {*/
-        /*bottom: 47px;*/
-    /*}*/
-
-
-/*}*/
-
-/*@media only screen and (max-width: 932px) and (min-width: 820px) {*/
-    /*.container {*/
-        /*top: 61%;*/
-        /*height: 69%;*/
-        /*!* font-size: 0; *!*/
-        /*width: 96%;*/
-        /*position: absolute;*/
-        /*left: 51%;*/
-        /*transform: translate(-50%, -50%);*/
-    /*}*/
-    /*.gameStats {*/
-        /*font-size: 1.9rem;*/
-    /*}*/
-    /*.accuracy {*/
-        /*bottom: 35px;*/
+        /*height: 54%;*/
+        /*width: 75%;*/
     /*}*/
 /*}*/
-/*@media only screen and (max-width: 819px) and (min-width: 774px) {*/
+    /*!*laptop*!*/
+/*@media only screen and (max-width: 1280px) and (min-width: 1067px) {*/
     /*.container {*/
-        /*top: 61%;*/
-        /*height: 71%;*/
-        /*!* font-size: 0; *!*/
-        /*width: 100%;*/
-        /*position: absolute;*/
-        /*left: 51%;*/
-        /*transform: translate(-50%, -50%);*/
+        /*height: 67%;*/
+        /*width: 64%;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 1066px) and (min-width: 965px) {*/
+    /*.container {*/
+        /*height: 64%;*/
+        /*width: 70%;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 964px) and (min-width: 836px) {*/
+    /*.container {*/
+        /*height: 63%;*/
+        /*width: 79%;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 835px) and (min-width: 734px) {*/
+    /*.container {*/
+        /*height: 56%;*/
+        /*width: 82%;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 733px) and (min-width: 661px) {*/
+    /*.container {*/
+        /*height: 55%;*/
+        /*width: 90%;*/
+
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 660px) and (min-width: 540px) {*/
+    /*.container {*/
+        /*top: 64%;*/
+        /*height: 53%;*/
+        /*width: 95%;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-width: 539px) and (min-width: 493px) {*/
+    /*.container {*/
+        /*height: 49%;*/
+        /*width: 101%;*/
+    /*}*/
+
+/*}*/
+/*@media only screen and (max-width: 492px) and (min-width: 300px) {*/
+    /*.game-container {*/
+        /*overflow-y: scroll;*/
+        /*display: flex;*/
+        /*flex-flow: row wrap;*/
+    /*}*/
+    /*.cardContainer {*/
+        /*height: 22%;*/
+        /*width: 33%;*/
     /*}*/
     /*.gameStats {*/
         /*font-size: 1.5rem;*/
-    /*}*/
-
-/*}*/
-
-/*@media only screen and (max-width: 773px) and (min-width: 668px) {*/
-    /*.game-container {*/
-        /*margin: 0px;*/
-        /*position: absolute;*/
-        /*height: 100%;*/
         /*width: 100%;*/
-        /*background-image: url(./images/star_wars_background.jpg);*/
-        /*overflow-y: scroll;*/
-        /*background-size: cover;*/
-        /*!* overflow-y: hidden; *!*/
-    /*}*/
-    /*.cardContainer {*/
-        /*height: 32%;*/
-        /*width: 26%;*/
-        /*display: inline-block;*/
-    /*}*/
-    /*.gameStats {*/
-
-        /*font-size: 1.7rem;*/
-        /*width: 45%;*/
-        /*background-color: red;*/
-        /*position: relative;*/
-        /*!* bottom: 118px; *!*/
-        /*left: 44%;*/
-        /*bottom: 112%;*/
-    /*}*/
-    /*.attempts {*/
-        /*width: 42%;*/
-        /*left: 110px;*/
+        /*left: 0%;*/
+        /*bottom: 139%;*/
+        /*height: 55%;*/
     /*}*/
     /*.accuracy {*/
         /*position: relative;*/
         /*width: 58%;*/
-
-        /*left: 33%;*/
-        /*bottom: 9px;*/
-    /*}*/
-
-/*}*/
-/*@media only screen and (max-width: 667px) and (min-width: 587px) {*/
-    /*.game-container {*/
-        /*overflow-y: scroll;*/
-    /*}*/
-    /*.container {*/
-        /*height: 66%;*/
-        /*width: 86%;*/
-        /*left: 53%;*/
-    /*}*/
-    /*.gameStats {*/
-        /*font-size: 1.7rem;*/
-        /*width: 100%;*/
-        /*background-color: red;*/
-        /*position: relative;*/
-        /*left: 0%;*/
-        /*height: 50px;*/
-        /*bottom: 139%;*/
+        /*!* left: 37%; *!*/
+        /*!* top: 105px; *!*/
+        /*left: 67%;*/
+        /*bottom: 32px;*/
     /*}*/
     /*.title {*/
-        /*height: 90%;*/
-        /*width: 33%;*/
-        /*left: 27%;*/
-        /*background-color: red;*/
-        /*bottom: -13px;*/
-    /*}*/
-    /*.cardContainer {*/
-        /*height: 32%;*/
-        /*width: 25%;*/
-    /*}*/
-    /*.attempts {*/
-        /*left: 36px;*/
-
-    /*}*/
-    /*.accuracy {*/
-        /*left: 62%;*/
-        /*bottom: 83%;*/
-    /*}*/
-/*}*/
-/*@media only screen and (max-width: 586px) and (min-width: 501px) {*/
-    /*.cardContainer {*/
-        /*height: 32%;*/
-        /*width: 30%;*/
-    /*}*/
-    /*.game-container {*/
-        /*overflow-y: scroll;*/
-    /*}*/
-/*}*/
-/*@media only screen and (max-width: 500px) and (min-width: 400px) {*/
-    /*.cardContainer {*/
-        /*height: 33%;*/
-        /*width: 40%;*/
-    /*}*/
-    /*.game-container {*/
-        /*overflow-y: scroll;*/
-    /*}*/
-    /*.title {*/
-        /*height: 90%;*/
+        /*height: 94%;*/
         /*font-size: 0;*/
-        /*width: 35%;*/
+        /*width: 37%;*/
         /*display: block;*/
         /*position: relative;*/
-        /*left: 28%;*/
+        /*left: 31%;*/
         /*background-color: red;*/
-        /*bottom: -19px;*/
+        /*bottom: -9px;*/
     /*}*/
-    /*.gameStats {*/
+    /*.attempts {*/
+        /*top: 16%;*/
+        /*left: 5%;*/
+    /*}*/
 
-        /*font-size: 1.7rem;*/
-        /*width: 98%;*/
-        /*background-color: red;*/
-        /*position: relative;*/
-        /*left: 1%;*/
-        /*bottom: 131%;*/
-        /*height: 55px;*/
-    /*}*/
-    /*.accuracy {*/
-        /*position: relative;*/
-        /*width: 58%;*/
-
-        /*left: 61%;*/
-        /*bottom: 44px;*/
-    /*}*/
 /*}*/
+
