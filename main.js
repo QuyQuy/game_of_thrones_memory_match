@@ -23,6 +23,7 @@ function resetModal() {
 }
 
 function closeModal() {
+    console.log('testing my stuff')
     $(".winnerModal").css('display','none');
 }
 
@@ -30,13 +31,14 @@ function addClickHandlersToElements(){
     // $('.container').on('click', '.card', cardClicker);
 
     $('.card').click(cardClicker);
+    $('.playAgain').on('click',resetModal)
     // setTimeout(cardClicker, 3000);
 
 }
 
 function cardClicker() {
     if(this !==firstCard && flag===true){
-        $(this).addClass('hidden');
+        $(this).addClass('flipCard');
 
 
 
@@ -71,13 +73,13 @@ function cardClicker() {
 
             else {
                 setTimeout(function () {
-                    $(firstCard).removeClass('hidden');
+                    $(firstCard).removeClass('flipCard');
                     firstCard = null;
 
                 }, 1000);
 
                 setTimeout(function () {
-                    $(secondCard).removeClass('hidden');
+                    $(secondCard).removeClass('flipCard');
                     secondCard = null;
                     flag = true;
                 }, 1000)
