@@ -1,10 +1,22 @@
+$(document).ready(loadPage);
 var firstCard = null;
 var secondCard = null;
 var  attempts = 0;
 var hits = 0;
 var totalMatches = 9;
 var flag = true;
-
+ // var frontOfTheCard = [
+ //     './images/cards/arya.jpeg',
+ //     './images/cards/brienne.jpeg',
+ //     './images/cards/arya.jpeg',
+ //     './images/cards/brienne.jpeg',
+ //     './images/cards/arya.jpeg',
+ //     './images/cards/brienne.jpeg',
+ //     './images/cards/arya.jpeg',
+ //     './images/cards/brienne.jpeg',
+ //     './images/cards/brienne.jpeg',
+ //
+ // ];
 
 $(document).ready(loadPage);
 
@@ -13,9 +25,35 @@ $(document).ready(loadPage);
 
 function loadPage() {
     addClickHandlersToElements();
+    createCardsOnTableGame();
 
 
 }
+
+// function createCardsOnTableGame() {
+//
+//     makeRandomCardFromArray();
+//
+//     for (var cardIndex=0; cardIndex < frontOfTheCard.length; cardIndex++) {
+//         var cardContainer = $('<div>').addClass('cardContainer');
+//         var card = $('<div>').addClass('card');
+//         var front = $('<div>').addClass('front');
+//         var frontImage = $('<img>', {
+//             class: 'imgSize',
+//             src: frontOfTheCard[cardIndex]
+//         });
+//         var back = $('<div>').addClass('back');
+//         front.append(frontImage);
+//         card.append(frontImage);
+//         card.append(front);
+//         card.append(back);
+//         cardContainer.append(card);
+//         $('.container').append(cardContainer);
+//     }
+// }
+// function makeRandomCardFromArray(){
+//     frontOfTheCard.sort(function(a, b){return 0.5 - Math.random()});
+// }
 
 function resetModal() {
     resetMemoryGame()
@@ -31,12 +69,16 @@ function addClickHandlersToElements(){
     // $('.container').on('click', '.card', cardClicker);
 
     $('.card').click(cardClicker);
+    // $('.card').on('click', cardClicker);
     $('.playAgain').on('click',resetModal)
     // setTimeout(cardClicker, 3000);
 
 }
 
 function cardClicker() {
+
+
+    console.log('testing');
     if(this !==firstCard && flag===true){
         $(this).addClass('flipCard');
 
@@ -124,7 +166,7 @@ function  resetMemoryGame(){
     hits  =  0;
     gameStats();
     // cardClicker()
-    $('.card').removeClass('hidden');
+    $('.card').removeClass('flipCard');
     // $('winnerModal').('hidden');
     // $('.card').addClass('hidden');
 }
