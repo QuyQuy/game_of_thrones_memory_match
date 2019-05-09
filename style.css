@@ -211,11 +211,12 @@
     background-repeat: no-repeat;
     left: 0;
     top: 0;
+    box-shadow: 0px -1px 3px #888888
 
 }
 
 
-.flipCard .back{
+.hideCard .back{
     display: none;
 }
 
@@ -281,6 +282,18 @@
     .container {
         height: 78%;
     }
+    .playAgain {
+        font-size: 2.5rem;
+        left: 60%;
+        bottom: 40%;
+    }
+    .modal-header {
+        font-size: 2.5rem;
+        top: 11%;
+        z-index: 2;
+        left: 60%;
+    }
+
 }
 @media (max-width: 1856px) and (min-width: 1680px) {
     .container {
@@ -310,6 +323,10 @@
     .container {
         height: 62%;
     }
+    .playAgain {
+        left: 60%;
+        bottom: 38%;
+    }
 }
 @media (max-width: 1387px) and (min-width: 1281px) {
     .container {
@@ -323,6 +340,11 @@
         bottom: 3%;
         left: 21%;
     }
+    .playAgain{
+        left: 60%;
+        bottom: 25%;
+    }
+
 
 }
 
@@ -339,7 +361,11 @@
 }
 @media (max-width: 1999px) and (min-width: 992px) and (max-height: 722px) {
     .col-md-9 {
-        width: 69%;
+        width: 71%;
+    }
+    .playAgain{
+        left: 60%;
+        bottom: 35%;
     }
 }
 @media (max-width: 991px) and (min-width: 768px) and (max-height: 722px) {
@@ -355,6 +381,17 @@
     }
     .attempts {
         padding-right: 22%;
+    }
+    .modal-header {
+        font-size: 1.6rem;
+        top: 0%;
+        left: 60%;
+    }
+    .playAgain {
+        font-size: 1.6rem;
+        left: 62%;
+        bottom: 29%;
+
     }
 
 }
@@ -381,6 +418,23 @@
         top: 28px;
         text-align: center;
     }
+    .winnerModal {
+        left: 23%;
+        top: 24%;
+        width: 46%;
+    }
+    .playAgain {
+        font-size: 1.8rem;
+        left: 58%;
+        bottom: 27%;
+
+    }
+    .modal-header {
+        font-size: 1.8rem;
+        top: 11%;
+        left: 57%;
+    }
+
 
 
 }
@@ -416,11 +470,27 @@
     .reset {
         position: relative;
         top: 30%;
-        left: -4%;
+        left: 16%;
         color: black;
         border: none;
         /* padding: 15px 32px; */
         /* background-image: linear-gradient(to left, rgba(15, 13, 13, 0), rgb(27, 22, 22)); */
+    }
+    .gif {
+        width: 331px;
+        right: 11%;
+    }
+    .modal-header {
+        font-size: 2rem;
+        top: -5%;
+        z-index: 2;
+        left: 57%;
+        width: 50%;
+    }
+    .playAgain {
+        left: 60%;
+        bottom: 30%;
+        width: 50%;
     }
 
 }
@@ -460,10 +530,441 @@
         position: relative;
         right: 6%;
     }
+    #modal {
+        width: 59%;
+        left: 15%;
+    }
+    .modal-header {
+        font-size: 1.8rem;
+        left: 57%;
+    }
+    .playAgain {
+        font-size: 1.8rem;
+        top: 61%;
+    }
 
 
 }
 /*@media screen and (orientation: portrait)  {*/
 
 /*}*/
+/*galaxy s5*/
 
+@media only screen and (max-height: 641px) and (min-height: 639px) and (max-width: 361px ) and  (orientation: portrait) {
+    .container {
+        height: 35%;
+        left: 1%;
+        bottom: 19%;
+    }
+    .cardContainer {
+        width: 16.6%;
+        height: 33.33%;
+    }
+    .card {
+        width: 95%;
+        height: 96%;
+    }
+    .title {
+        height: 53%;
+        width: 106%;
+        left: 2%;
+        bottom: 6%;
+    }
+    .gameStats {
+        font-size: 1rem;
+    }
+    .reset {
+        font-size: .6rem;
+        top: 14%;
+        left: 5%;
+    }
+    .attempts {
+        right: 30%;
+    }
+    .accuracy {
+        right: 22%;
+    }
+    .gif {
+        width: 233px;
+        right: 56%;
+    }
+    .modal-header {
+        font-size: 1.4rem;
+        z-index: 2;
+        left: 53%;
+        width: 79%;
+        bottom: 50%;
+    }
+    .playAgain {
+        font-size: 1.4rem;
+        width: 72%;
+        left: 55%;
+        bottom: 21%;
+        color: white;
+
+    }
+
+
+}
+/*pixel*/
+@media only screen and (max-height: 361px) and (min-height: 359px) and (orientation: landscape) {
+    .gameStats {
+        font-size: 1.4rem;
+    }
+    .reset {
+        font-size: .9rem;
+        top: 30%;
+        left: -5%;
+
+    }
+}
+@media only screen and (max-width: 412px) and (min-width: 410px) and (orientation: portrait) {
+    .container {
+        height: 41%;
+        width: 67%;
+        bottom: 22%;
+    }
+    .reset {
+        font-size: 1rem;
+        left: 16%;
+
+    }
+    .title {
+        height: 57%;
+        width: 100%;
+        font-size: 0;
+    }
+    .modal-header {
+        font-size: 1.5rem;
+        top: -7%;
+        left: 51%;
+    }
+    .playAgain {
+        font-size: 1.5rem;
+        top: 59%;
+        left: 53%;
+        width: 39%;
+    }
+}
+/*pixel side*/
+@media only screen and (max-height: 412px) and (min-height: 410px) and (orientation: landscape) {
+    .reset {
+        top: 30%;
+        left: -1%;
+
+    }
+
+}
+/*pixel x2*/
+
+@media only screen and (max-height: 824px) and (min-height: 822px) and (orientation: portrait) {
+    .container {
+        height: 41%;
+        width: 75%;
+        bottom: 22%;
+        left: 15%;
+    }
+}
+
+/*iphone 5/SE*/
+
+@media only screen and (max-width: 321px) and (min-width: 319px) and (orientation: portrait) {
+    .container {
+        bottom: 18%;
+        height: 39%;
+        left: 1%;
+        margin: 0;
+    }
+    .cardContainer {
+        width: 16.6%;
+        height: 29.33%;
+
+    }
+    .title {
+        height: 58%;
+        width: 120%;
+        bottom: 10%;
+        padding-right: 0%;
+        left: -19%;
+    }
+    .gameStats {
+        font-size: 1.2rem;
+        left: 7%;
+        bottom: 8%;
+    }
+    .gameStats {
+        font-size: 1.2rem;
+        left: 7%;
+        bottom: 8%;
+    }
+    .attempts {
+        padding-right: 16%;
+
+        right: 26%;
+    }
+    .accuracy {
+        padding-right: 16%;
+        right: 11%;
+
+    }
+    .reset {
+        font-size: .7rem;
+        top: 15%;
+        left: 11%;
+
+    }
+    .gif {
+        width: 257px;
+        border-radius: 50%;
+        z-index: 1;
+        right: 70%;
+    }
+    .modal-header {
+        font-size: 1.5rem;
+        width: 97%;
+        left: 60%;
+    }
+    .playAgain {
+        font-size: 1.5rem;
+        left: 66%;
+        bottom: 20%;
+        width: 87%;
+    }
+
+}
+/*iphone5/se*/
+
+@media only screen and (max-height: 321px) and (min-height: 319px) and (orientation: landscape) {
+    .container {
+        height: 78%;
+        width: 79%;
+        font-size: 0;
+        left: 17%;
+        margin: 0;
+    }
+    .gameStats{
+        font-size: 1.3rem;
+    }
+    .attempts {
+        right: 19%;
+    }
+    .accuracy {
+        right: 9%;
+    }
+    .reset {
+        font-size: .7rem;
+        top: 17%;
+        left: 5%;
+    }
+    .gif {
+        width: 257px;
+        border-radius: 50%;
+        z-index: 1;
+        right: 24%;
+    }
+    .playAgain {
+        font-size: 1.5rem;
+        left: 45%;
+        bottom: 20%;
+        width: 87%;
+    }
+    .modal-header {
+        font-size: 1.5rem;
+        width: 52%;
+        left: 43%;
+        top: -3%;
+    }
+
+}
+/*iphone 6/7/8*/
+
+@media only screen and (max-width: 376px) and (min-width: 374px) and (orientation: portrait) {
+    .container {
+        height: 34%;
+        left: 2%;
+        bottom: 15%;
+    }
+    .container {
+        height: 34%;
+        left: 2%;
+        bottom: 15%;
+    }
+    .gameStats {
+        font-size: 1.5rem;
+    }
+    .attempts {
+        right: 34%;
+    }
+    .title {
+        height: 61%;
+        width: 121%;
+        right: 14%;
+        bottom: 12%;
+    }
+    .accuracy {
+        right: 19%;
+        padding-right: 16%;
+    }
+    .reset {
+        font-size: .8rem;
+    }
+    .gif {
+        width: 257px;
+        border-radius: 50%;
+        z-index: 1;
+        right: 70%;
+    }
+    .modal-header {
+        font-size: 1.5rem;
+        width: 77%;
+        left: 44%;
+        top: 0px;
+    }
+    .playAgain {
+        font-size: 1.5rem;
+        left: 50%;
+        bottom: 20%;
+        width: 87%;
+    }
+
+
+
+}
+
+/*iphone 6/7/8 plus */
+
+@media only screen and (max-width: 415px) and (min-width: 413px) {
+    .container {
+        height: 41%;
+        width: 67%;
+        bottom: 21%;
+        left: 21%;
+        margin: 0;
+    }
+    .title {
+        height: 56%;
+        width: 100%;
+        bottom: 20px;
+        font-size: 0;
+    }
+    .reset {
+        font-size: .9rem;
+        top: 30%;
+        left: 13%;
+    }
+    .gif {
+        width: 257px;
+        border-radius: 50%;
+        z-index: 1;
+        right: 70%;
+    }
+    .modal-header {
+        font-size: 1.5rem;
+        width: 38%;
+        left: 50%;
+        top: 0px;
+    }
+    .playAgain {
+        font-size: 1.5rem;
+        left: 50%;
+        bottom: 20%;
+        width: 87%;
+    }
+    .modal-header {
+        font-size: 1.5rem;
+        width: 77%;
+        left: 44%;
+        top: 0px;
+    }
+    .playAgain {
+        font-size: 1.5rem;
+        left: 50%;
+        bottom: 20%;
+        width: 87%;
+    }
+}
+
+/*iphonex*/
+
+@media only screen and (max-height: 813px) and (min-height: 811px) {
+    .container {
+        height: 42%;
+        left: 12%;
+        bottom: 23%;
+    }
+    .cardContainer {
+        width: 25.6%;
+        height: 33.33%;
+    }
+}
+
+@media only screen and (max-width: 501px) and (min-width: 499px) and  (max-height: 979px) and (min-height: 777px) and (orientation: portrait) {
+    .container {
+        height: 32%;
+
+    }
+    .winnerModal {
+        left: 21%;
+        top: 28%;
+        width: 58%;
+    }
+    .modal-header {
+        font-size: 1.7rem;
+        left: 56%;
+    }
+    .playAgain{
+        font-size: 1.7rem;
+        left: 56%;
+        bottom: 19%;
+    }
+}
+@media only screen and (max-width: 1366px) and (min-width: 1281px) and (max-height: 707px ) and (min-height: 638px) and (orientation: landscape) {
+    .col-md-9 {
+        width: 63%;
+        left: 20%;
+        height: 70%;
+        top: 0%;
+    }
+    .playAgain {
+        font-size: 2rem;
+        left: 60%;
+        bottom: 34%;
+
+    }
+}
+
+
+@media only screen and (max-width: 500px) and (max-height: 499px) and (min-height: 296px) {
+    .container {
+        height: 66%;
+        width: 79%;
+        left: 12%;
+        margin: 0;
+        bottom: 5px;
+    }
+    .gameStats {
+        font-size: 1.5rem;
+    }
+    .attempts {
+        right: 30%;
+    }
+    .accuracy {
+        right: 12%;
+        padding-right: 16%;
+    }
+    .gif {
+        width: 232px;
+    }
+    .modal-header {
+        font-size: 1.3rem;
+        left: 74%;
+        width: 53%;
+    }
+    .playAgain {
+        font-size: 1.3rem;
+        width: 49%;
+        left: 77%;
+        bottom: 23%;
+
+    }
+}
