@@ -41,7 +41,6 @@ function addClickHandlersToElements(){
 
 
 function cardClicker() {
-    debugger;
 
 
     if( this !==firstCard && flag===true){
