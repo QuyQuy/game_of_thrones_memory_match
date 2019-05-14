@@ -54,7 +54,6 @@
 }
 
 .headerContainer {
-    /*width: 100%;*/
     height: 16%;
     font-family: cursive;
     color: white;
@@ -65,7 +64,6 @@
     top: 4%;
 }
 .modal-header {
-    /*font-family: cursive;*/
     color: white;
     justify-content: center;
     font-size: 2rem;
@@ -91,9 +89,7 @@
 }
 .gif{
     width: 100%;
-    /*height: 46%;*/
     position: relative;
-    /*top: -63px;*/
     border-radius: 50%;
     z-index: 1;
 }
@@ -119,16 +115,13 @@
     height: 82%;
     width: 78%;
     font-size: 0;
-    /* width: 24%; */
     display: block;
     position: relative;
     left: 2%;
-    /* background-color: red; */
     bottom: 6%;
 }
 .container {
     height: 77%;
-    /* width: 100%; */
     font-size: 0;
     background-size: 100% 100%;
     background-position: center;
@@ -159,22 +152,6 @@
     margin: 0;
 }
 
-/*.cardContainer {*/
-    /*height: 38%;*/
-    /*width: 16%;*/
-  /*!*flex-wrap: wrap;*!*/
-    /*!*display: flex;*!*/
-    /*!*flex-wrap: wrap;*!*/
-/*}*/
-/*.card {*/
-    /*!*height: 94%;*!*/
-    /*background-color: yellow;*/
-    /*position: relative;*/
-    /*!*width: 95%;*!*/
-    /*display: inline-block;*/
-    /*height: 38%;*/
-    /*width: 16%;*/
-/*}*/
 
 
 .back{
@@ -210,20 +187,14 @@
 
 
 
-
 .attempts {
     padding-right: 16%;
     position: relative;
-    /*left: 16%;*/
-    /*width: 10%;*/
-    /*top: 21%;*/
+
 }
 .accuracy {
     padding-right: 16%;
     position: relative;
-    /*width: 58%;*/
-    /*left: 76%;*/
-    /*bottom: 20px;*/
 }
 .firstReset {
     position: relative;
@@ -255,7 +226,6 @@
 .playingContainer {
     top: 55%;
     height: 70%;
-    /* font-size: 0; */
     width: 64%;
     position: absolute;
     left: 53%;
@@ -284,7 +254,6 @@
 @media (max-width: 1856px) and (min-width: 1680px) {
     .container {
         height: 65%;
-        /* width: 100%; */
         font-size: 0;
         background-size: 100% 100%;
         background-position: center;
@@ -374,7 +343,6 @@
     }
     .container {
         height: 77%;
-        /* width: 100%; */
         font-size: 0;
         background-size: 100% 100%;
         background-position: center;
@@ -407,7 +375,6 @@
     }
     .container {
         height: 77%;
-        /* width: 100%; */
         font-size: 0;
         background-size: 100% 100%;
         background-position: center;
@@ -440,7 +407,6 @@
     }
     .container {
         height: 48%;
-        /* width: 100%; */
         font-size: 0;
         background-size: 100% 100%;
         background-position: center;
@@ -555,33 +521,7 @@
 
 
 }
-/*@media screen and (max-width: 980px) and  (min-width: 768px) {*/
-    /*.col-sm-10 {*/
-        /*width: 66.333333%;*/
-    /*}*/
-    /*.container {*/
-        /*height: 56%;*/
-        /*left: 8%;*/
-        /*margin: 0;*/
-        /*bottom: 6%;*/
-    /*}*/
-    /*.gameStats {*/
-        /*font-size: 2rem;*/
-        /*position: relative;*/
-        /*left: 13%;*/
-        /*bottom: 8%;*/
-    /*}*/
-    /*.accuracy {*/
-        /*padding-right: 16%;*/
-        /*left: 9%;*/
-    /*}*/
-    /*.reset {*/
-        /*top: 30%;*/
-        /*left: 22%;*/
-    /*}*/
 
-
-/*}*/
 
 @media screen and (max-width: 750px ) and (min-width: 605px) and (orientation: portrait)  {
     .container {
@@ -1065,7 +1005,7 @@
     }
     .cardContainer {
         width: 25.6%;
-      \
+
     }
 
 }
