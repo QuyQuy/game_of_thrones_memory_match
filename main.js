@@ -103,7 +103,6 @@ function cardClicker() {
 }
 
 
-
 function gameStats(){
     console.log("attempts", attempts);
     console.log("total2", totalMatches );
@@ -120,7 +119,6 @@ function gameStats(){
     $('.attempts').text('Attempts: ' + attempts);
 
 
-
 }
 
 function  resetMemoryGame(){
@@ -130,14 +128,5 @@ function  resetMemoryGame(){
     gameStats();
     $('.card').removeClass('flipCard');
 }
-
-
-
-
-
-
-
-
-
 
 
