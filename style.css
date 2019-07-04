@@ -188,13 +188,18 @@
 
 
 .attempts {
-    padding-right: 16%;
+    /*padding-right: 16%;*/
     position: relative;
 
 }
 .accuracy {
-    padding-right: 16%;
+    /*padding-right: 16%;*/
     position: relative;
+}
+.won {
+    padding-right: 7%;
+    position: relative;
+    margin-right: -5%;
 }
 .firstReset {
     position: relative;

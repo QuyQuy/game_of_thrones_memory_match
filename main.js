@@ -6,6 +6,8 @@ var secondCard = null;
 var  attempts = 0;
 var hits = 0;
 var totalMatches = 9;
+var won = 0;
+var countGames = 0;
 var flag = true;
 
 
@@ -113,20 +115,27 @@ function gameStats(){
     }
     if(hits === totalMatches) {
         $(".winnerModal").css('display','block');
+        countGames++
+
+
+
 
     }
+    $('.won').text('Won: ' + countGames);
     $('.accuracy').text("Accuracy: "+ accuracyPercentage + '%');
     $('.attempts').text('Attempts: ' + attempts);
 
 
 }
 
+fu
+
 function  resetMemoryGame(){
     console.log('reset button');
     attempts =  0;
     hits  =  0;
     gameStats();
-    $('.card').removeClass('flipCard');
+    $('.card').removeClass('hideCard');
 }
 
 
